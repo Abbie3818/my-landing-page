@@ -3,6 +3,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 50px;
+ max-width: 800px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -17,6 +19,7 @@ p {
     color: #3498db;
     font-size: 32px;
     margin-top: 40px;
+margin-bottom: 15px;
 }
 
 button {
@@ -32,4 +35,6 @@ button {
 
 button:hover {
     background-color: #2980b9;
+}button:active {
+    transform: scale(0.95);
 }
